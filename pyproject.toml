@@ -1,0 +1,18 @@
+[project]
+name = "whisperx-forked-30122024"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ctranslate2==4.4.0",
+    "faster-whisper==1.0.0",
+    "moviepy>=2.1.1",
+    "nltk>=3.9.1",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.0.1",
+    "setuptools>=65",
+    "torch>=2",
+    "torchaudio>=2",
+    "transformers>=4.39.3",
+]
