@@ -1,7 +1,8 @@
-from moviepy.editor import VideoFileClip
+from moviepy.video.io.VideoFileClip import VideoFileClip
+
 
 # Define the input video file and output audio file
-mp4_file = "Video.mp4"
+mp4_file = "dante-toplanti-cafebras-durumu-301222024.mp4"
 mp3_file = "audio.mp3"
 
 # Load the video clip
